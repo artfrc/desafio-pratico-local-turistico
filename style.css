@@ -86,6 +86,10 @@ h3 {
 
 }
 
+#destinos {
+  margin-bottom: 8px;
+}
+
 #Templo-Haedong-Yonggungsa {
 
   width: 1120px;
@@ -93,11 +97,90 @@ h3 {
   border-radius: 28px;
   margin-bottom: 20px;
   margin-top: 64px;
+  object-fit: cover;
 }
 
-#list-bom-para {
+#Templo-Beomeo {
 
+  width: 1120px;
+  height: 350px;
+  border-radius: 28px;
+  margin-bottom: 20px;
+  margin-top: 64px;
+  object-fit: cover;
+}
+
+#Parque-Yongdusan {
+  width: 1120px;
+  height: 350px;
+  border-radius: 28px;
+  margin-bottom: 20px;
+  margin-top: 64px;
+  object-fit: cover;
+}
+
+#titulo-bom-para {
+  color: #333333;
   font-weight: bold;
   font-size: 16px;
 }
+
+#lista {
+  list-style-type: disc; /* Define o tipo de marcador como um círculo preenchido */
+  list-style-position: inside; /* Alinha os pontos com o título */
+}
+
+#lista li {
+  color: #0C51A7; /* Muda a cor dos pontos e do texto */
+  font-weight: bold;
+}
+
+#lista li::marker {
+  color: #333333; /* Muda a cor dos pontos especificamente */
+}
+
+#lista3 {
+  list-style-type: disc; /* Define o tipo de marcador como um círculo preenchido */
+  list-style-position: inside; /* Alinha os pontos com o título */
+}
+
+#lista3 li::marker {
+  color: #333333; /* Muda a cor dos pontos especificamente */
+}
+
+
+#casais{
+  color: #591B98; /* Muda a cor dos pontos e do texto */
+  font-weight: bold;
+}
+
+#familias {
+  color: #E5245E; /* Muda a cor dos pontos e do texto */
+  font-weight: bold;
+}
+
+#orcamento {
+  color: #E95E10; /* Muda a cor dos pontos e do texto */
+  font-weight: bold;
+}
+
+#descricao {
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  margin-top: 65px ;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+
+
+
 
